@@ -290,7 +290,7 @@ var assemblies = [
   {
     "name": "HW4-redo",
     "classes": [
-      { "name": "BMICalculator", "rp": "HW4_redo_BMICalculator.html", "cl": 55, "ucl": 0, "cal": 55, "tl": 79, "cb": 28, "tb": 28, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "BMICalculator", "rp": "HW4_redo_BMICalculator.html", "cl": 83, "ucl": 0, "cal": 83, "tl": 103, "cb": 58, "tb": 58, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Person", "rp": "HW4_redo_Person.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 15, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Program", "rp": "HW4_redo_Program.html", "cl": 0, "ucl": 5, "cal": 5, "tl": 9, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
@@ -306,6 +306,12 @@ var riskHotspotMetrics = [
 ];
 
 var riskHotspots = [
+  {
+    "assembly": "HW4-redo", "class": "BMICalculator", "reportPath": "HW4_redo_BMICalculator.html", "methodName": "GetInputError(Person)", "methodShortName": "GetInputError(...)", "fileIndex": 0, "line": 49,
+    "metrics": [
+      { "value": 22, "exceeded": false },
+      { "value": 22, "exceeded": true },
+    ]},
   {
     "assembly": "HW4-redo", "class": "BMICalculator", "reportPath": "HW4_redo_BMICalculator.html", "methodName": "Calculate(Person)", "methodShortName": "Calculate(...)", "fileIndex": 0, "line": 7,
     "metrics": [
