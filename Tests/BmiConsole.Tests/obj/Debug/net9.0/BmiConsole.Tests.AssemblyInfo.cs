@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BmiConsole.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eb78f2ddf006868f299331d96849f8dcf9a9fcd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a79e853bbbe821075adf658dad6ee75956430c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BmiConsole.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BmiConsole.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

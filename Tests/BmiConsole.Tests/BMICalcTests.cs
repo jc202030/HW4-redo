@@ -64,6 +64,15 @@ public class BMICalcTests
     [InlineData("Metric", 250, 300)]
     [InlineData("Imperial", 20, 44)]
     [InlineData("Imperial", 100, 660)]
+    [InlineData("Metric", 50.1, 90)]
+    [InlineData("Metric", 249.9, 90)]
+    [InlineData("Metric", 180, 20.1)]
+    [InlineData("Metric", 180, 299.9)]
+    [InlineData("Imperial", 20.1, 180)]
+    [InlineData("Imperial", 99.9, 180)]
+    [InlineData("Imperial", 70, 44.1)]
+    [InlineData("Imperial", 70, 659.9)]
+
     public void ExactRangeEndpointsAreAccepted(string units, double height, double weight)
     {
         Assert.Contains("BMI:", Run(new Person("A", height, weight, units)));
