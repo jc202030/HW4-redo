@@ -101,4 +101,12 @@ public class BMICalcTests
         Assert.Equal(25.0, calculator.CalculateMetric(200, 100), 7);
         Assert.Equal(703.0 * 200 / (70 * 70), calculator.CalculateImperial(70, 200), 7);
     }
+
+    [Fact]
+    public void NullPersonThrowsArgumentNullException()
+    {
+        var calculator = new BMICalculator();
+        Assert.Throws<ArgumentNullException>(() => calculator.Calculate(null!));
+    }
+
 }

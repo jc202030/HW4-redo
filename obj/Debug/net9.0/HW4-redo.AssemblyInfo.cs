@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW4-redo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7c3903d2a74e1b0c70b8e29b020de23f4c578f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eb78f2ddf006868f299331d96849f8dcf9a9fcd")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW4-redo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW4-redo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
