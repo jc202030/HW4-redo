@@ -5,12 +5,12 @@ public class BMICalculator
 {
     public void Calculate(Person person)
     {
-        if(person == null)
+        if (person == null)
             throw new ArgumentNullException(nameof(person));
         double bmi;
         if (person.UnitSystem == "Metric")
         {
-            if (person.Height < 50 || person.Height > 250)
+            if (person.Height < 50 || person.Height > 250 || double.IsNaN(person.Height))
             {
                 Console.WriteLine("Invalid measurements");
                 return;
