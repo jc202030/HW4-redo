@@ -118,4 +118,12 @@ public class BMICalcTests
         Assert.Throws<ArgumentNullException>(() => calculator.Calculate(null!));
     }
 
+    [Fact]
+    public void RejectsNaNHeight()
+    {
+        var person = new Person("Alex", double.NaN, 90, "Metric");
+        Assert.Equal("Invalid measurements", Run(person));
+    }
+
+
 }
